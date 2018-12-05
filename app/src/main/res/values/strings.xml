@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Classhare</string>
+    <string name="title_activity_open">openActivity</string>
+    <string name="title_activity_note_select">NoteSelect</string>
 </resources>

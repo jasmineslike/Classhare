@@ -13,10 +13,20 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/btnPost"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Post a Book" />
+
+
+        <Button
             android:id="@+id/btnBuy"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
             android:background="@android:color/holo_green_light"
             android:text="Buy a Book" />
 
@@ -37,15 +47,6 @@
             android:layout_marginTop="50dp"
             android:background="@android:color/holo_red_light"
             android:text="Share a Note" />
-
-        <Button
-            android:id="@+id/btnPost"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:background="@android:color/holo_blue_dark"
-            android:text="Post a Book" />
 
     </LinearLayout>
 
